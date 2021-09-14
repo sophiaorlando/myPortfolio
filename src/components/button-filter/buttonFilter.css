@@ -1,0 +1,21 @@
+.button {
+  color: black;
+  /* background-color: rgb(236, 183, 234); */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(236, 183, 234),
+    whitesmoke
+  );
+  border-color: blue;
+  border-style: none;
+  margin: 5px;
+  font-size: 30px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+.buttonFilter {
+  color: white;
+  /* background-color: red; */
+}

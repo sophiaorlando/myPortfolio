@@ -1,0 +1,45 @@
+.project {
+  flex: 4;
+  color: white;
+
+  margin-right: 2%;
+}
+
+.projText {
+  color: black;
+  text-align: center;
+  margin-right: 20px;
+  line-height: 250%;
+}
+
+#projContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectTitle {
+  color: black;
+  font-size: 40px;
+}
+
+.gitHubBtn {
+  color: black;
+  margin-right: 60px;
+  font-size: 20px;
+  margin-top: 7px;
+  background-color: rgb(236, 183, 234);
+  padding: 20px;
+  border-radius: 35%;
+}
+
+.gitHubBtn:hover {
+  background-color: black;
+  color: rgb(236, 183, 234);
+  -webkit-box-shadow: 5px 5px 15px 5px rgb(236, 183, 234);
+  box-shadow: 5px 5px 15px 5px rgb(236, 183, 234);
+  cursor: pointer;
+}
+
+.color {
+  color: black;
+}
