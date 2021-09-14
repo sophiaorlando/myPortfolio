@@ -1,6 +1,6 @@
 {
   "name": "sophia-portfolio",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Sophia's portfolfio",
   "main": "index.js",
   "scripts": {
