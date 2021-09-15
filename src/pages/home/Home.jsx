@@ -9,7 +9,7 @@ function Home() {
       <div className="area">
         <Fade left cascade>
           <div className="heroText">Sophia Orlando</div>
-          <div className="heroSubText">Idiosyncratic Full Stack Engineer</div>
+          <div className="heroSubText">Idiosyncratic Software Engineer</div>
         </Fade>
 
         <ul className="circles">
