@@ -20,15 +20,16 @@ function skills() {
                   <li className="skillsList">TypeScript</li>
                   <li className="skillsList">WordPress</li>
                   <li className="skillsList">Java</li>
-                  <li className="skillsList">Angular</li>
                 </ul>
                 <h1>Frameworks</h1>
 
                 <ul className="skillsMenu">
                   <li className="skillsList">Bootstrap</li>
+                  <li className="skillsList">Angular</li>
                   <li className="skillsList">React-Bootstrap</li>
                   <li className="skillsList">Material-UI</li>
                   <li className="skillsList">NodeJS</li>
+                  <li className="skillsList">Express</li>
                   <li className="skillsList">Selenium</li>
                 </ul>
                 <h1>Hosting Platforms</h1>
@@ -51,13 +52,13 @@ function skills() {
               <Fade bottom>
                 <h1>Libraries</h1>
                 <ul className="skillsMenu">
-                  <li className="skillsList">jQuery</li>
+                <li className="skillsList">React Native</li>
                   <li className="skillsList">ReactJS</li>
                   <li className="skillsList">Redux</li>
                   <li className="skillsList">React Router</li>
                   <li className="skillsList">MomentJS</li>
                   <li className="skillsList">styled-components</li>
-                  <li className="skillsList">Github Pages</li>
+                  <li className="skillsList">jQuery</li>
                 </ul>
                 <h1>Databases</h1>
                 <ul className="skillsMenu">
