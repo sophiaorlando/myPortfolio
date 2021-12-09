@@ -1,0 +1,132 @@
+@import "../../global.scss";
+
+.intro{
+  background-color: black;
+  display:flex;
+
+  @include for-phone-only{
+    flex-direction: column;
+    align-items: center
+  }
+
+  .left{
+    flex: 0.5;
+    overflow:hidden;
+
+
+    .theContainer{
+
+      width:800px;
+      height: 600px;
+      background:pink;
+      background: -webkit-linear-gradient(rgb(250, 14, 218), rgb(125, 225, 255));
+      border-radius: 50%;
+      float:right;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+
+      .imgContainer{
+        width: 700px;
+        height: 500px;
+        border-radius: 50%;
+        display:flex;
+        align-items: flex-end;
+        justify-content: center;
+        float:right;
+        // margin-top: 30px;
+      
+
+
+        @include for-phone-only{
+          align-items: flex-start;
+        }
+      }
+
+
+  
+      img{
+        height: 100%;
+
+        @include for-phone-only{
+          height: 50%;
+        }
+      }
+
+    }
+
+
+  }
+  .right{
+    flex: 0.5;
+    position: relative;
+
+    .wrapper{
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @include for-phone-only{
+        padding-left: 0;
+      }
+
+      h1{
+        font-size: 60px;
+        margin:10px 0;
+        color:white;
+
+      }
+      h2{
+        font-size: 35px;
+        color:white;
+      }
+      h3{
+        font-size: 30px;
+        color:white;
+
+
+        span{
+          font-size: inherit;
+          color:$mainColor;
+          background: -webkit-linear-gradient(rgb(250, 14, 218), rgb(125, 225, 255));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .ityped-cursor{
+          animation: blink 1s inifinite;
+        }
+
+        @keyframes blink {
+          50%{
+            opacity: 1;
+          }
+          100%{
+            opacity: 0;
+          }
+        }
+      }
+    }
+
+    a{
+      position: absolute;
+      bottom: 10px;
+      left:40%;
+
+      img{
+        width:30px;
+        animation: arrowBlink 2s infinite;
+      }
+
+      @keyframes arrowBlink{
+        100%{
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
