@@ -2,7 +2,6 @@ import './projects.scss'
 import ProjectList from '../projectList/ProjectList'
 import {useState, useEffect} from 'react';
 import {featuredProjects, webProjects, mobileProjects, uXProjects, coolStuff} from '../../data.js'
-import ProjectDetails from '../projectDetails/ProjectDetails';
 
 export default function Projects({details, setDetails}) {
 
