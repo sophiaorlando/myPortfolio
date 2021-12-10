@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: center;
   position:relative;
+  overflow:hidden;
 
   .arrow{
     height:50px;
@@ -63,7 +64,7 @@
 
         @include for-phone-only{
           width: 90%;
-          height: 180px;
+          height: 150px;
           margin: 5px 0;
          }
 

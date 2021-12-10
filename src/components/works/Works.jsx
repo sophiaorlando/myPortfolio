@@ -35,8 +35,8 @@ export default function Works({details}) {
                 {details.desc}
               </p>
               <div className="iconContainer">
-              <span><GitHub fontSize="large"/></span>
-              <span><OpenInNew  fontSize="large"/></span>
+              <span><GitHub fontSize="large" onClick={() => window.open(details.github)}/></span>
+              <span><OpenInNew  fontSize="large" onClick={() => window.open(details.live)}/></span>
               </div>
             </div>
           </div>

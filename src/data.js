@@ -4,6 +4,8 @@ export const featuredProjects = [
     id: 1,
     title: "E-commerce Store",
     img: "./assets/femmeStore/femmeStoreImg.png",
+    github: "https://github.com/sophiaorlando/femme-store",
+    live: "https://master.d12uoj9bqq5qvq.amplifyapp.com/login",
     images: [
       "./assets/femmeStore/femmeStoreImg1.png",
       "./assets/femmeStore/femmeStoreImg2.png",
@@ -17,6 +19,8 @@ export const featuredProjects = [
     id: 2,
     title: "Beach Initiative",
     img: "./assets/beachInit/beachImg.png",
+    github: "https://github.com/sophiaorlando/Project2",
+    live: "https://thawing-temple-82462.herokuapp.com/",
     images:
       [
         "./assets/beachInit/beachImg1.png",
@@ -31,6 +35,8 @@ export const featuredProjects = [
     id: 3,
     title: "Hourly Weather App",
     img: "./assets/hourlyWeather/weatherImg.png",
+    github: "https://github.com/sophiaorlando/hourlyWeatherApp",
+    live: "https://main.d1nars2ijui1jq.amplifyapp.com/",
     images: [
       "./assets/hourlyWeather/weatherCode1.png",
       "./assets/hourlyWeather/weatherCode2.png",
@@ -43,6 +49,8 @@ export const featuredProjects = [
     id: 4,
     title: "Sneaker Freakers",
     img: "./assets/sneakerFreakers/sneakerImg.png",
+    github: "https://github.com/sophiaorlando/Project3",
+    live: "https://secret-beyond-86832.herokuapp.com/home",
     images: [
       "./assets/sneakerFreakers/sneakerImg1.png",
       "./assets/sneakerFreakers/sneakerImg2.png",
@@ -55,6 +63,8 @@ export const featuredProjects = [
     id: 5,
     title: "Tesla Clone",
     img: "./assets/tesla/tesla.png",
+    github: "https://github.com/sophiaorlando/teslaWebsite",
+    live: "https://master.d2qgbjavdcgttz.amplifyapp.com/",
     images: [
       "./assets/tesla/teslaCode.png",
       "./assets/tesla/tesla-img1.png",
@@ -67,6 +77,8 @@ export const featuredProjects = [
     id: 6,
     title: "Packing List 4 U",
     img: "./assets/packingList/Packing4U.png",
+    github: "https://github.com/sophiaorlando/PackingList4U",
+    live: "https://apps.apple.com/us/app/packing-list-4-u/id1551224278",
     images: [
       "./assets/packingList/Packing1Code.png",
       "./assets/packingList/Packing2Code.png",
@@ -82,6 +94,8 @@ export const webProjects = [
     id: 1,
     title: "E-commerce Store",
     img: "./assets/femmeStore/femmeStoreImg.png",
+    github: "https://github.com/sophiaorlando/femme-store",
+    live: "https://master.d12uoj9bqq5qvq.amplifyapp.com/login",
     images: [
       "./assets/femmeStore/femmeStoreImg1.png",
       "./assets/femmeStore/femmeStoreImg2.png",
@@ -95,6 +109,8 @@ export const webProjects = [
     id: 2,
     title: "Beach Initiative",
     img: "./assets/beachInit/beachImg.png",
+    github: "https://github.com/sophiaorlando/Project2",
+    live: "https://thawing-temple-82462.herokuapp.com/",
     images:
       [
         "./assets/beachInit/beachImg1.png",
@@ -109,6 +125,8 @@ export const webProjects = [
     id: 3,
     title: "Hourly Weather App",
     img: "./assets/hourlyWeather/weatherImg.png",
+    github: "https://github.com/sophiaorlando/hourlyWeatherApp",
+    live: "https://main.d1nars2ijui1jq.amplifyapp.com/",
     images: [
       "./assets/hourlyWeather/weatherCode1.png",
       "./assets/hourlyWeather/weatherCode2.png",
@@ -121,6 +139,8 @@ export const webProjects = [
     id: 4,
     title: "Sneaker Freakers",
     img: "./assets/sneakerFreakers/sneakerImg.png",
+    github: "https://github.com/sophiaorlando/Project3",
+    live: "https://secret-beyond-86832.herokuapp.com/home",
     images: [
       "./assets/sneakerFreakers/sneakerImg1.png",
       "./assets/sneakerFreakers/sneakerImg2.png",
@@ -133,6 +153,8 @@ export const webProjects = [
     id: 5,
     title: "Tesla Clone",
     img: "./assets/tesla/tesla.png",
+    github: "https://github.com/sophiaorlando/teslaWebsite",
+    live: "https://master.d2qgbjavdcgttz.amplifyapp.com/",
     images: [
       "./assets/tesla/teslaCode.png",
       "./assets/tesla/tesla-img1.png",
@@ -148,6 +170,8 @@ export const mobileProjects = [
     id: 1,
     title: "Packing List 4 U",
     img: "./assets/packingList/Packing4U.png",
+    github: "https://github.com/sophiaorlando/PackingList4U",
+    live: "https://apps.apple.com/us/app/packing-list-4-u/id1551224278",
     images: [
       "./assets/packingList/Packing1Code.png",
       "./assets/packingList/Packing2Code.png",
