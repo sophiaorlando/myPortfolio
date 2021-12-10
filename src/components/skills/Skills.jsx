@@ -22,7 +22,7 @@ export default function Skills() {
 
 
       <div className="mainCard frameworks">
-            <div className="skill">{frameworks.title}</div>
+            <div className="skill frameTitle">{frameworks.title}</div>
             <div className="card">
                 {frameworks.skills.map((skill, j) => 
                   <div className="theSkills">
@@ -45,7 +45,7 @@ export default function Skills() {
             <div className="skill">{languages.title}</div>
             <div className="card">
                 {languages.skills.map((skill, j) => 
-                  <div className="theSkills">
+                  <div className="theSkills langSkills">
                     <div className="center" key={j}>{skill}</div>
                   </div>
                 )}
