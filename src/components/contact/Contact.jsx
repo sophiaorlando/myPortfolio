@@ -35,10 +35,10 @@ export default function Contact() {
         <img src="./assets/contactImg.jpg" alt="" />
       </div>
     <div className="right">
-      <h2>Contact.</h2>
+      <h2>Contact Me</h2>
       <form onSubmit = {handleSubmit}>
-        <input type="text" placeholder="Email" name="email"/>
-        <textarea placeholder="Message" name="message"></textarea>
+        <input type="text" placeholder="Your Email" name="email"/>
+        <textarea placeholder="Type your message here..." name="message"></textarea>
         <button type="submit">Send</button>
         {message && <span>Thanks for the message, I'll reply ASAP :)</span>}
       </form>

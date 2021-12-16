@@ -84,21 +84,38 @@
         font-size: 35px;
         color:white;
       }
-      h3{
+
+      .idio{
         font-size: 30px;
         color:white;
+        display:flex;
+      flex-direction: row;
 
+      
+      h3{
+        @include for-iphone-only{
+          display:none;
+        }
+        @include for-phone-only{
+          display:none;
+        }
+      }
 
         span{
-          font-size: inherit;
+          font-size: 35px;
           color:$mainColor;
           background: -webkit-linear-gradient(rgb(250, 14, 218), rgb(125, 225, 255));
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
+          margin-left: 5px;
+
+
         }
 
         .ityped-cursor{
           animation: blink 1s inifinite;
+
+
         }
 
         @keyframes blink {
@@ -109,8 +126,9 @@
             opacity: 0;
           }
         }
-      }
+      
     }
+  }
 
     a{
       position: absolute;

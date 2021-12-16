@@ -29,12 +29,15 @@ export default function Intro() {
         <div className="wrapper">
           <h2>Hi there, I'm</h2>
           <h1>Sophia Orlando</h1>
-          <h3>Idiosyncratic <span ref={textRef}></span></h3>
+          <div className="idio"><h3>Idiosyncratic </h3> <span ref={textRef}></span></div>
+
+          
         </div>
         <a href="#projects">
           <img src="assets/down.png" alt="" />
         </a>
       </div>
     </div>
+
   )
 }
